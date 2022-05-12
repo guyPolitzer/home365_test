@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.home-page-title {
+    color: $title-color;
+    font-family: 'Secular One', sans-serif;
+    font-size: $title-font-size;
+    text-align: center;
+    margin: 0;
+    margin-top: $large-spacing;
+
+    span {
+        color: $main-color;
+    }
+
+    .wifi-icon {
+        width: 30px;
+        position: relative;
+        right: 44px;
+        top: 17px;
+        animation: updown 4s ease infinite;
+    }
+}
+
+@keyframes updown {
+    0% {
+      transform: translateY(-10%);
+    }
+  
+    50% {
+      transform: translateY(10%);
+    }
+  
+    100% {
+      transform: translateY(-10%);
+    }
+  }
+
+.home-page-subtitle {
+    color: $subtitle-color;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $huge-font-size;
+    letter-spacing: .3px;
+}

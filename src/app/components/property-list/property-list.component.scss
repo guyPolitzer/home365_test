@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.loader {
+    margin: $large-spacing auto;
+}
+
+::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: $main-color;
+}
+
+

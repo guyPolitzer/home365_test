@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+button {
+    background-color: $main-color;
+    border: 1px solid $main-color;
+    border-radius: 25px;
+    color: $white;
+    cursor: pointer;
+    font-size: $large-font-size;
+    padding: $small-spacing $large-spacing;
+    width: 90px;
+}
+
+.topic-title {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 0 $small-spacing;
+}
+
+.status {
+    margin-top: $small-spacing;
+}
+
+.property-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $small-spacing;
+
+    .property-icon {
+        transform: rotate(15deg);
+        width: 70px;
+    }
+}
+
+.close-btn {
+    display: flex;
+    justify-content: center;
+}
